@@ -62,4 +62,8 @@ class Song
      song = new_from_filename(song_name)
      song.save
   end 
+  
+  def self.destroy_all
+    
+  end
 end
